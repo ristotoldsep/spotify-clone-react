@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 const DetailsHeader = ({ artistId, artistData, songData }) => {
 
@@ -11,7 +11,7 @@ const DetailsHeader = ({ artistId, artistData, songData }) => {
         <img
           src={
             artistId
-              ? artist?.artwork?.url.replace("{w}", "500").replace("{h}", "500")
+              ? artist?.artwork?.url.replace('{w}', '500').replace('{h}', '500')
               : songData?.images?.coverart
           }
           alt="art"
