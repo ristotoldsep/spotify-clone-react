@@ -2,12 +2,13 @@ import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { RiCloseLine } from 'react-icons/ri';
 import { HiOutlineMenu } from 'react-icons/hi';
+import { Link } from 'react-router-dom'
 
 import logo from '../assets/spotify.png';
 import { links } from '../assets/constants';
 
 const NavLinks = ({ handleClick }) => (
-  <div className="mt-10">
+  <div className="mt-10 animate-slowfade">
     {links.map((item, i) => (
       <NavLink 
         key={item.name}
@@ -28,7 +29,9 @@ const Sidebar = () => {
   return (
     <>
       <div className="md:flex hidden flex-col w-[240px] py-10 px-4 bg-[#191624]">
-        <img src={logo} alt="logo" className="w-full h-14 object-contain" />
+        <Link to="/">
+          <img src={logo} alt="logo" className="w-full h-14 object-contain animate-slowfade" />
+        </Link>
         <NavLinks />
       </div>
 
