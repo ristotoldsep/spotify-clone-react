@@ -1,8 +1,6 @@
-# Project Lyrics
+# Project SPOTIFY 2.0 (Check out live site: https://spotify-risto.netlify.app/)
 
-Develop an elegant React.js Music Application. 
-
-Check out the complete project requirements [here](https://docs.google.com/document/d/13PeFwRlPEhMw_HPyrIrInvQuKaVWnpNmcv-y3NA208s/edit?usp=sharing)
+Elegant React.js Music Application. 
 
 # Contributing
 
